@@ -1,6 +1,6 @@
 package com.rcai.matching;
 
-import com.rcai.shared.contracts.IncidentEvent;
+import com.rcai.shared.contracts.TradeEvent;
 import java.time.Instant;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,7 +22,7 @@ public class MatchingServiceApplication {
 class IncidentController {
 
     @GetMapping
-    Mono<IncidentEvent> simulate() {
-        return Mono.just(new IncidentEvent("matching", "INC-001", "OK", Instant.now()));
+    Mono<TradeEvent> simulate() {
+        return Mono.just(new TradeEvent("matching", "INC-001", "OK", Instant.now()));
     }
 }

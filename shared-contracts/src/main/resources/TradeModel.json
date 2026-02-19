@@ -1,0 +1,24 @@
+{
+  "eventId": "3f6c9b8e-5d5c-4b3e-9a1f-8c7e6a2d1f90",
+  "tradeId": "8a72c1f4-9d4b-4f1a-92a2-3b77e5c9a001",
+  "correlationId": "c9f1a2e4-7b3d-4a90-8e2a-119e77ddaa22",
+  "serviceName": "execution-service",
+  "eventType": "EXECUTION_CONFIRMED",
+  "status": "COMPLETED",
+  "instrument": {
+    "baseCurrency": "EUR",
+    "quoteCurrency": "USD",
+    "pricePrecision": 5,
+    "symbol": "EUR/USD"
+  },
+  "side": "BUY",
+  "notionalAmount": 1000000.00,
+  "requestedPrice": 1.09750,
+  "executionPrice": 1.09753,
+  "orderType": "MARKET",
+  "executionVenue": "ECN_PRIMARY",
+  "latencyMs": 18,
+  "errorCode": null,
+  "timestamp": "2026-02-20T18:42:11Z",
+  "schemaVersion": 1
+}
