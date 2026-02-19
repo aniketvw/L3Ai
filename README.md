@@ -1,2 +1,3 @@
-# L3Ai
-AI-Augmented Incident Intelligence &amp; RCA Platform
+# L3Ai Incident Simulator
+
+Multi-service FX incident simulator with shared contracts.
