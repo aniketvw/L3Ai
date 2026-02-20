@@ -16,13 +16,3 @@ public class RiskServiceApplication {
         SpringApplication.run(RiskServiceApplication.class, args);
     }
 }
-
-@RestController
-@RequestMapping("/incident")
-class IncidentController {
-
-    @GetMapping
-    Mono<TradeEvent> simulate() {
-        return Mono.just(new TradeEvent("risk", "INC-001", "OK", Instant.now()));
-    }
-}

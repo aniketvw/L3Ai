@@ -16,13 +16,3 @@ public class MatchingServiceApplication {
         SpringApplication.run(MatchingServiceApplication.class, args);
     }
 }
-
-@RestController
-@RequestMapping("/incident")
-class IncidentController {
-
-    @GetMapping
-    Mono<TradeEvent> simulate() {
-        return Mono.just(new TradeEvent("matching", "INC-001", "OK", Instant.now()));
-    }
-}
