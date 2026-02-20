@@ -3,8 +3,8 @@
   "tradeId": "8a72c1f4-9d4b-4f1a-92a2-3b77e5c9a001",
   "correlationId": "c9f1a2e4-7b3d-4a90-8e2a-119e77ddaa22",
   "serviceName": "execution-service",
-  "eventType": "NEW",
-  "status": "EXECUTION_CONFIRMED",
+  "eventType": "EXECUTION_CONFIRMED",
+  "status": "COMPLETED",
   "instrument": {
     "baseCurrency": "EUR",
     "quoteCurrency": "USD",
