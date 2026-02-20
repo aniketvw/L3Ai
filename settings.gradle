@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'l3ai-incident-simulator'
+
+include 'shared-contracts'
+include 'incident-simulator-trade'
+include 'incident-simulator-risk'
+include 'incident-simulator-matching'
+include 'incident-simulator-execution'

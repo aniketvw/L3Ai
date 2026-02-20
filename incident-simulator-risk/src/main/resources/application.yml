@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: incident-simulator-risk
+
+server:
+  port: 0
